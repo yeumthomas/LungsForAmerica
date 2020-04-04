@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #e06666;
+    font-family: calibri;
+}
+
+/*
+.logo{
+    color:
+    letter-spacing: 5px
+}
+*/
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    color: white;
+}
