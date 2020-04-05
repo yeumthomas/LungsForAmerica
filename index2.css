@@ -3,16 +3,25 @@
     color: white;
     margin-left: 20%;
     margin-right: 20%;
-    padding: 0;
+    padding-bottom: 3%;
 }
 
+.venti-text-div{
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 3%;
+}
+
+
 .venti-pic-div{
-    display: block; 
     align-items: center;
     padding: 0;
 }
 
 .venti-pic{
+    display: block; 
     margin-left: auto;
     margin-right: auto;
     width: 15%;
@@ -35,7 +44,7 @@
 }
 
 .venti-text{
-    padding-top: 3%;
+    margin: 3%;
     color: white;
     text-align: left;
     align-items: left;
@@ -43,13 +52,11 @@
     
 }
 
-.bold{
-    color: #37474f;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-}
 
+
+.spacer{
+    padding: 3%;
+}
 .info-venti{
     font-size: 20px;
     padding: 4%;
