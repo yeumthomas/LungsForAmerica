@@ -353,3 +353,21 @@ nav{
   .container{
       min-height: 100%;
   }
+
+
+
+.google-map{
+    height: 90%;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.google{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}

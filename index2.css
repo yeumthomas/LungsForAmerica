@@ -236,3 +236,24 @@
 .map-pic{
     width: 90%;
 }
+
+
+
+.google-map{
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.google{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.google-map-div{
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
