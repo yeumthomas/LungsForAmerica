@@ -278,10 +278,12 @@ nav{
     text-align: center;
     padding: 3%;
     color: white;
+    margin-bottom: 5%;
 }
 
 .venti-pic-div{
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .venti-pic{
