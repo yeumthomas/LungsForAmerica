@@ -8,6 +8,7 @@
 
 html{
     overflow-x: hidden;
+    height: 100%;
 }
 
 body{
@@ -273,12 +274,46 @@ nav{
 
 
 
+/* ABOUT US SECTION */
+.about-div{
+    text-align: center;
+    padding: 3%;
+    color: white;
+}
 
+.about-title{
+    font-size: 50px;
+    width: 100%;
+    height: 88vz;
+}
+
+.our-names{
+    font-family: 'monaco';
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    padding-top: 3%;
+    margin: 0;
+}
+
+.about-text{
+    font-size: 14px;
+    margin-top: 10%;
+
+}
+
+.about-text-div{
+    padding-top: 4%;
+}
+
+/* THE FOOT */
 
   .foot{
       background-color: #37474f;
       text-align: center;
       padding: 4%;
+      height: 100px;
+      margin-top: 100px;
   }
 
   .last-words{
@@ -293,4 +328,9 @@ nav{
     font-size: 16px;
     color:  #e06666;
     background-color: #37474f;
+  }
+
+
+  .container{
+      min-height: 100%;
   }
