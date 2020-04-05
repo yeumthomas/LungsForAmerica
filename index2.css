@@ -51,7 +51,6 @@
     text-align: left;
     align-items: left;
     font-size: 20px;
-    
 }
 
 
@@ -95,10 +94,97 @@
     padding-bottom: 3%;
 }
 
-.venti-text-div{
+.mission-header{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.mission-text{
+    margin: 3%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.mission-text-div{
     text-align: center;
     color: white;
     margin-left: 20%;
     margin-right: 20%;
     padding-bottom: 3%;
+}
+
+.spacer2{
+    padding: 5%;
+}
+
+@media screen and (max-width: 899px){
+.pic-left{
+    align-items: center;
+}
+.pic-right{
+    align-items: center;
+}
+
+.pic-container{
+    max-width: 100%;
+    align-items: center;
+    max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .pic-container{
+        
+        content: "";
+        clear: both;
+        display: table;
+        max-width: 100%;
+    }
+  .pic-left {
+    float: left;
+    width: 50%;
+    padding-left: 18%;
+    padding-right: 3%;
+  }
+  .pic-right {
+    float: right;
+    width: 50%;
+    padding-right: 18%;
+    padding-left: 3%;
+  }
+}
+
+.graph-pic{
+    max-width: 100%;
+}
+.cap{
+    color: white;
+    font-style: italic;
+
+}
+
+.spacer3{
+    padding: 2%;
+}
+
+.map-title{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+.map-div{
+    max-width: 100%;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+.map-pic{
+    width: 90%;
 }
