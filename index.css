@@ -68,12 +68,13 @@ nav{
 
 .nav-links a:hover {
     cursor: pointer;
-    border-bottom: 3px solid white;
+    border-bottom: 1px solid white;
   }
   
-  .nav-links a:active {
-    border-bottom: 3px solid white;
+.nav-links a:active {
+    border-bottom: 1px solid white;
   }
+
 .burger{
     display: none;
     cursor: pointer;
@@ -271,6 +272,36 @@ nav{
 
 
 
+/* VENTILATOR SECTION */
+
+.venti-title-div{
+    text-align: center;
+    padding: 3%;
+    color: white;
+}
+
+.venti-pic-div{
+    align-items: center;
+}
+
+.venti-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    align-self: center;
+}
+
+.youtube{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+
+
+
 
 
 
@@ -305,6 +336,14 @@ nav{
 .about-text-div{
     padding-top: 4%;
 }
+
+
+
+
+
+
+
+
 
 /* THE FOOT */
 
